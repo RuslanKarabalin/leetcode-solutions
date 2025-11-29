@@ -5,11 +5,11 @@ import (
 )
 
 func threeSum(nums []int) [][]int {
-	slices.Sort(nums)	
+	slices.Sort(nums)
 	n := len(nums)
 	result := make([][]int, 0)
 
-    for i := range (n - 2) {
+	for i := range n - 2 {
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
@@ -17,9 +17,9 @@ func threeSum(nums []int) [][]int {
 		m := i + 1
 		r := n - 1
 
-        for m < r {
+		for m < r {
 			currSum := nums[i] + nums[m] + nums[r]
-            if currSum == 0 {
+			if currSum == 0 {
 				v := []int{nums[i], nums[m], nums[r]}
 				result = append(result, v)
 
@@ -31,12 +31,12 @@ func threeSum(nums []int) [][]int {
 				}
 				m++
 				r--
-            } else if currSum > 0 {
-				r--;
+			} else if currSum > 0 {
+				r--
 			} else {
-				m++;
+				m++
 			}
-        }
-    }
+		}
+	}
 	return result
 }
