@@ -5,11 +5,9 @@
 using namespace std;
 
 class Solution {
-bool checkChar(char c) {
-    return ('A' <= c && c <= 'Z') || ('a' <= c && c <= 'z') || ('0' <= c && c <= '9');
-}
+    bool checkChar(char c) { return ('A' <= c && c <= 'Z') || ('a' <= c && c <= 'z') || ('0' <= c && c <= '9'); }
 
-public:
+   public:
     bool isPalindrome(string s) {
         int n = s.length();
         if (n == 0) {
