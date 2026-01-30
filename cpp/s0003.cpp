@@ -42,7 +42,8 @@ int main() {
     Solution s;
 
     cout << s.lengthOfLongestSubstring(
-                "zkrassqjwvonakhdnbpkmolkbwqztcbumuugonqlieaipjoekdoxrbhszzrsduprqjyfyosgssrjcfnmidlbettduny")
+                "zkrassqjwvonakhdnbpkmolkbwqztcbumuugonqlieaipjoekdoxrbhszzrsdu"
+                "prqjyfyosgssrjcfnmidlbettduny")
          << "\n";
 
     return 0;
