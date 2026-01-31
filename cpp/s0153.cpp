@@ -50,12 +50,12 @@ int main() {
     vector<int> in4 = {5, 1, 2, 3, 4};
     vector<int> in5 = {3, 1, 2};
 
-    cout << s.findMin(in0) << "\n";
-    cout << s.findMin(in1) << "\n";
-    cout << s.findMin(in2) << "\n";
-    cout << s.findMin(in3) << "\n";
-    cout << s.findMin(in4) << "\n";
-    cout << s.findMin(in5) << "\n";
+    cout << s.findMin(in0) << std::endl;
+    cout << s.findMin(in1) << std::endl;
+    cout << s.findMin(in2) << std::endl;
+    cout << s.findMin(in3) << std::endl;
+    cout << s.findMin(in4) << std::endl;
+    cout << s.findMin(in5) << std::endl;
 
     return 0;
 }

@@ -41,7 +41,7 @@ int main() {
     Solution s;
 
     bool res = s.isSubsequence("bb", "ahbgdc");
-    cout << res << "\n";
+    cout << res << std::endl;
 
     return 0;
 }

@@ -33,7 +33,7 @@ int main() {
     for (int x : res) {
         cout << x << " ";
     }
-    cout << "\n";
+    cout << std::endl;
 
     return 0;
 }

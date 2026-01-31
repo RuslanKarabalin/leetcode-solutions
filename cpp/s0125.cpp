@@ -33,14 +33,14 @@ class Solution {
         // for (char c : chars) {
         //     cout << c;
         // }
-        // cout << "\n";
+        // cout << std::endl;
 
         int l = 0;
         int r = chars.size() - 1;
         while (l < r) {
             char lc = chars[l];
             char rc = chars[r];
-            // cout << "lc: " << lc << ", rc: " << rc << "\n";
+            // cout << "lc: " << lc << ", rc: " << rc << std::endl;
             if (lc != rc) {
                 return false;
             }
@@ -56,7 +56,7 @@ int main() {
     cin.tie(nullptr);
 
     Solution s;
-    cout << s.isPalindrome("Zeus was deified, saw Suez.") << "\n";
+    cout << s.isPalindrome("Zeus was deified, saw Suez.") << std::endl;
 
     return 0;
 }

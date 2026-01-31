@@ -87,7 +87,7 @@ int main() {
         cout << res->val << " ";
         res = res->next;
     }
-    cout << "\n";
+    cout << std::endl;
 
     return 0;
 }

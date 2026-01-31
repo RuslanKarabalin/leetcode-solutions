@@ -38,9 +38,9 @@ int main() {
 
     Solution s;
 
-    cout << s.pivotIndex(in0) << "\n";
-    cout << s.pivotIndex(in1) << "\n";
-    cout << s.pivotIndex(in2) << "\n";
+    cout << s.pivotIndex(in0) << std::endl;
+    cout << s.pivotIndex(in1) << std::endl;
+    cout << s.pivotIndex(in2) << std::endl;
 
     return 0;
 }

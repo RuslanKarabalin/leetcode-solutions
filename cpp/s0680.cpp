@@ -62,7 +62,7 @@ int main() {
 
     Solution s;
     bool res = s.validPalindrome("abccbva");
-    cout << res << "\n";
+    cout << res << std::endl;
 
     return 0;
 }

@@ -51,7 +51,7 @@ int main() {
 
     Solution s;
     vector<int> in = {0, 0};
-    cout << s.longestConsecutive(in) << "\n";
+    cout << s.longestConsecutive(in) << std::endl;
 
     return 0;
 }

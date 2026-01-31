@@ -60,10 +60,10 @@ int main() {
     ListNode* res;
 
     res = s.middleNode(head00);
-    cout << res->val << "\n";
+    cout << res->val << std::endl;
 
     res = s.middleNode(head10);
-    cout << res->val << "\n";
+    cout << res->val << std::endl;
 
     return 0;
 }

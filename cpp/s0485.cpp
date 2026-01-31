@@ -41,7 +41,7 @@ int main() {
     Solution s;
 
     vector<int> in = {1, 1, 0, 1, 1, 1};
-    cout << s.findMaxConsecutiveOnes(in) << "\n";
+    cout << s.findMaxConsecutiveOnes(in) << std::endl;
 
     return 0;
 }

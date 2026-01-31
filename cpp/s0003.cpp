@@ -44,7 +44,7 @@ int main() {
     cout << s.lengthOfLongestSubstring(
                 "zkrassqjwvonakhdnbpkmolkbwqztcbumuugonqlieaipjoekdoxrbhszzrsdu"
                 "prqjyfyosgssrjcfnmidlbettduny")
-         << "\n";
+         << std::endl;
 
     return 0;
 }

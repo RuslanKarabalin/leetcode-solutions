@@ -34,7 +34,7 @@ int main() {
     for (int x : v) {
         cout << x << " ";
     }
-    cout << "\n";
+    cout << std::endl;
 
     return 0;
 }

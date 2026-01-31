@@ -61,21 +61,21 @@ int main() {
         cout << res->val << " ";
         res = res->next;
     }
-    cout << "\n";
+    cout << std::endl;
 
     res = s.reverseList(head10);
     while (res != nullptr) {
         cout << res->val << " ";
         res = res->next;
     }
-    cout << "\n";
+    cout << std::endl;
 
     res = s.reverseList(head20);
     while (res != nullptr) {
         cout << res->val << " ";
         res = res->next;
     }
-    cout << "\n";
+    cout << std::endl;
 
     return 0;
 }

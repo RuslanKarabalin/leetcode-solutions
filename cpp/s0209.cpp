@@ -52,17 +52,17 @@ int main() {
     int tr0 = 7;
     std::vector<int> in0 = {2, 3, 1, 2, 4, 3};
 
-    std::cout << s.minSubArrayLen(tr0, in0) << "\n";
+    std::cout << s.minSubArrayLen(tr0, in0) << std::endl;
 
     int tr1 = 11;
     std::vector<int> in1 = {1, 1, 1, 1, 1, 1, 1, 1};
 
-    std::cout << s.minSubArrayLen(tr1, in1) << "\n";
+    std::cout << s.minSubArrayLen(tr1, in1) << std::endl;
 
     int tr2 = 15;
     std::vector<int> in2 = {5, 1, 3, 5, 10, 7, 4, 9, 2, 8};
 
-    std::cout << s.minSubArrayLen(tr2, in2) << "\n";
+    std::cout << s.minSubArrayLen(tr2, in2) << std::endl;
 
     return 0;
 }

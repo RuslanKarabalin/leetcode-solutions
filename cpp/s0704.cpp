@@ -35,8 +35,8 @@ int main() {
 
     Solution s;
 
-    cout << s.search(in0, t0) << "\n";
-    cout << s.search(in1, t1) << "\n";
+    cout << s.search(in0, t0) << std::endl;
+    cout << s.search(in1, t1) << std::endl;
 
     return 0;
 }

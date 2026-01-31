@@ -43,7 +43,7 @@ int main() {
     Solution s;
     vector<int> in0 = {30, 20, 150, 100, 40};
 
-    cout << s.numPairsDivisibleBy60(in0) << "\n";
+    cout << s.numPairsDivisibleBy60(in0) << std::endl;
 
     return 0;
 }

@@ -55,7 +55,7 @@ int main() {
     for (auto x : res) {
         cout << x << " ";
     }
-    cout << "\n";
+    cout << std::endl;
 
     return 0;
 }

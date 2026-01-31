@@ -86,10 +86,10 @@ int main() {
 
     Solution s;
 
-    cout << s.isPalindrome(head00) << "\n";
-    cout << s.isPalindrome(head10) << "\n";
-    cout << s.isPalindrome(head30) << "\n";
-    cout << s.isPalindrome(head40) << "\n";
+    cout << s.isPalindrome(head00) << std::endl;
+    cout << s.isPalindrome(head10) << std::endl;
+    cout << s.isPalindrome(head30) << std::endl;
+    cout << s.isPalindrome(head40) << std::endl;
 
     return 0;
 }

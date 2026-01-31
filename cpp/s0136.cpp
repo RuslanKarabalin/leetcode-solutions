@@ -21,7 +21,7 @@ int main() {
     Solution s;
 
     vector<int> in = {4, 1, 2, 1, 2};
-    cout << s.singleNumber(in) << "\n";
+    cout << s.singleNumber(in) << std::endl;
 
     return 0;
 }

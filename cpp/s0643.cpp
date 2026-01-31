@@ -48,12 +48,12 @@ int main() {
     vector<int> in0 = {1, 12, -5, -6, 50, 3};
     int t0 = 4;
 
-    cout << s.findMaxAverage(in0, t0) << "\n";
+    cout << s.findMaxAverage(in0, t0) << std::endl;
 
     vector<int> in1 = {5};
     int t1 = 1;
 
-    cout << s.findMaxAverage(in1, t1) << "\n";
+    cout << s.findMaxAverage(in1, t1) << std::endl;
 
     return 0;
 }

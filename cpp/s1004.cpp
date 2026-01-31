@@ -42,15 +42,15 @@ int main() {
 
     vector<int> in0 = {1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0};
     int k0 = 2;
-    cout << s.longestOnes(in0, k0) << "\n";
+    cout << s.longestOnes(in0, k0) << std::endl;
 
     vector<int> in1 = {0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1};
     int k1 = 3;
-    cout << s.longestOnes(in1, k1) << "\n";
+    cout << s.longestOnes(in1, k1) << std::endl;
 
     vector<int> in2 = {0, 0, 0, 1};
     int k2 = 4;
-    cout << s.longestOnes(in2, k2) << "\n";
+    cout << s.longestOnes(in2, k2) << std::endl;
 
     return 0;
 }
