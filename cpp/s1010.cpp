@@ -7,8 +7,6 @@ using namespace std;
 class Solution {
    public:
     int numPairsDivisibleBy60(vector<int>& time) {
-        int n = time.size();
-
         unordered_map<int, int> tmod_to_count;
         for (int t : time) {
             int v = t % 60;

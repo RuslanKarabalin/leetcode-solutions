@@ -24,7 +24,6 @@ class Solution {
                 minVal = nums[m];
             }
 
-            int lv = nums[l];
             int mv = nums[m];
             int hv = nums[h];
 
